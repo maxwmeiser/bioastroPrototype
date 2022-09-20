@@ -4,7 +4,7 @@ import sys
 from PyQt5.QtWidgets import QApplication, QDialog, QGridLayout, QHBoxLayout, QLayout, QVBoxLayout, QMainWindow, QPushButton, QShortcut, QLabel, QListWidget, QWidget, QListWidgetItem, QTableWidgetItem, QProxyStyle, QDesktopWidget
 from PyQt5.uic import loadUi
 from PyQt5.QtCore import QCoreApplication, QObject, QThread, QTimer, pyqtSignal, Qt
-from PyQt5.QtGui import QColor, QFont, QKeySequence, QFontInfo, QPalette
+from PyQt5.QtGui import QColor, QFont, QKeySequence, QFontInfo, QPalette, QPixmap
 
 import PyQt5.QtCore as QtCore
 import PyQt5.QtWidgets as QtWidgets
@@ -30,8 +30,8 @@ class menu_page(QMainWindow):
     def hitButt(self):
         #create instance of worker window, pass in comboBox input
         self.pushButton.setText('clickd')
-        working = worker(reso = self.comboBox.currentText())
-        working.showFullScreen()
+        self.working = worker(reso = self.comboBox.currentText())
+        self.working.show()
 
 
 class worker(QMainWindow):
@@ -49,16 +49,11 @@ class worker(QMainWindow):
         self.right.clicked.connect(self.switchLeft)
 
     def switchRight(self):
-        self.pixmap.setPixmap(QtGui.QPixmap('./img/monkee.jpg'))
+        self.pic.setPixmap(QtGui.QPixmap('./img/monkee.jpg'))
 
     def switchLeft(self):
-        self.pixmap.setPixmap(QtGui.QPixmap('./img/OG.jpg'))
-
-
-
-
-
-
+        self.pic.setPixmap(QtGui.QPixmap('./img/OG.jpg'))
+        
 
 app = QApplication(sys.argv)
 window = menu_page()
