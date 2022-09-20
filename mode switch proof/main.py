@@ -31,7 +31,8 @@ class menu_page(QMainWindow):
         #create instance of worker window, pass in comboBox input
         self.pushButton.setText('clickd')
         self.working = worker(reso = self.comboBox.currentText())
-        self.working.show()
+        #self.working.show()
+        self.working.showFullScreen()
 
 
 class worker(QMainWindow):
