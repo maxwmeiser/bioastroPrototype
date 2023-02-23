@@ -1,0 +1,62 @@
+61 messages with timestamp + state data
+----1673997162.0525992 False True True False False True False True False True
+----1673997162.0818374 False True False True False True False
+----1673997162.1122293 True False True False True False True False
+----1673997162.148443 True False True False True True True True True
+----1673997162.1796987 True True True True True True True True
+----1673997162.2187223 True True True True False False True True True True
+----1673997162.2492697 True True False False False False False False
+----1673997162.2796218 False False False False True True True True
+----1673997162.316629 True True True True True True True True
+----1673997162.349487 False False False False True True True True
+----1673997162.3809714 True True True True False False False False
+----1673997162.4177134 True True True True True True False False
+----1673997162.4490592 True True True True False False False False False
+----1673997162.4853742 False False False False False False True True True
+----1673997162.5167007 True True True True True True True True
+----1673997162.5485518 True True False True True True False False
+----1673997162.5842657 False False False False False False False False True
+----1673997162.6172526 False True False False True True False
+----1673997162.6551325 True False True False True False True False True False
+----1673997162.6851292 True False False True False True True False
+----1673997162.7159827 True False False True False True True False
+----1673997162.7517455 False True True False True True True True
+----1673997162.7858179 True True True True True True True True
+----1673997162.8174877 False False False False True True True True
+----1673997162.8523543 True True True False False True True True
+----1673997162.8854034 False False False True True True True True
+----1673997162.9208343 True True False False False False False False False False
+----1673997162.9516203 False False True False True False True False
+----1673997162.9843674 True False False True False True True False
+----1673997163.0215926 True False False True True True True True
+----1673997163.0526989 True True True True True True True True
+----1673997163.0851932 False False False True True True True True False
+----1673997163.1207283 False False True True True True True False False
+----1673997163.1531866 False True True True True True False False
+----1673997163.1897442 False True True True True True False False False
+----1673997163.219815 False False False False False False False
+----1673997163.2535672 True False True False True False True False
+----1673997163.288079 True False True True True True True True True
+----1673997163.3215036 True True True True True True False
+----1673997163.3530846 False False False False True True True True
+----1673997163.3883963 True True False False False False False False False True
+----1673997163.4211407 True True True True True True True True
+----1673997163.4574275 True True False True True True False True True True
+----1673997163.4863937 False False False False False False
+----1673997163.5192463 False False False True True True True True True
+----1673997163.5562556 True True True True True False True True True
+----1673997163.5894074 True True False False False True True True
+----1673997163.6213892 True True True True False False False False
+----1673997163.6563118 False False False False False False True False True
+----1673997163.6873255 True True True True True True True
+----1673997163.7259223 True True True True False False False False False
+----1673997163.75693 False False False False False True False True
+----1673997163.7887192 False True False True False True True
+----1673997163.8253517 True True True True True True True True True True
+----1673997163.8587875 False False False True True True True True
+----1673997163.892316 True True False True True True False True
+----1673997163.9262733 True True False True True True False True True True
+----1673997163.9570615 True True False True True True
+----1673997163.9936604 False True True True True True True True False True
+----1673997164.0255349 True True False False True True True True
+----1673997164.053046 False True True True False True True True
