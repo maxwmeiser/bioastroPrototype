@@ -47,8 +47,6 @@
       <pointsize>48</pointsize>
       <weight>75</weight>
       <bold>true</bold>
-      <underline>false</underline>
-      <strikeout>false</strikeout>
      </font>
     </property>
     <property name="text">
@@ -76,7 +74,6 @@
     </property>
    </widget>
   </widget>
-  <widget class="QStatusBar" name="statusbar"/>
  </widget>
  <resources/>
  <connections/>
